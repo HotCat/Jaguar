@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 16 Sep 2013 05:06:59 PM EDT
+EESchema Schematic File Version 2  date Mon 16 Sep 2013 06:18:12 PM EDT
 LIBS:opto
 LIBS:power
 LIBS:conn

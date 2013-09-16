@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 16 Sep 2013 04:11:09 PM EDT
+EESchema Schematic File Version 2  date Mon 16 Sep 2013 05:06:59 PM EDT
 LIBS:opto
 LIBS:power
 LIBS:conn
@@ -20,9 +20,21 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	5100 7650 5100 6750
+	4000 4700 4000 4950
 Wire Wire Line
-	5100 4050 5100 3150
+	4000 3800 4000 3850
+Wire Wire Line
+	5450 3700 5450 3850
+Wire Wire Line
+	5450 3850 4000 3850
+Wire Wire Line
+	5450 1900 5450 2050
+Wire Wire Line
+	5450 2050 4000 2050
+Wire Wire Line
+	4000 1100 4000 1150
+Wire Wire Line
+	5100 7650 5100 6750
 Wire Wire Line
 	5100 7650 4000 7650
 Wire Wire Line
@@ -32,15 +44,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 5850 4000 5600
 Wire Wire Line
-	5100 4050 4000 4050
-Wire Wire Line
-	4000 4050 4000 3800
-Wire Wire Line
-	4000 1100 4000 1350
-Wire Wire Line
-	4000 2000 4000 2250
-Wire Wire Line
-	4000 2250 5100 2250
+	4000 2050 4000 2000
 Connection ~ 3700 7000
 Connection ~ 2950 7700
 Wire Wire Line
@@ -55,13 +59,13 @@ Connection ~ 2900 7000
 Connection ~ 3300 7000
 Connection ~ 2400 7000
 Wire Wire Line
-	2400 7200 3000 7200
+	3000 7200 2400 7200
 Wire Wire Line
-	3700 7000 4150 7000
+	4150 7000 3700 7000
 Wire Wire Line
-	3700 6100 4150 6100
+	4150 6100 3700 6100
 Wire Wire Line
-	2400 6300 3000 6300
+	3000 6300 2400 6300
 Connection ~ 2400 6100
 Connection ~ 3300 6100
 Connection ~ 2900 6100
@@ -76,21 +80,21 @@ Wire Wire Line
 Connection ~ 2950 6800
 Connection ~ 3700 6100
 Wire Wire Line
-	3000 1800 2400 1800
+	2400 1800 3000 1800
 Wire Wire Line
-	2400 900  3000 900 
+	3000 900  2400 900 
 Connection ~ 3700 5200
 Connection ~ 3700 4300
 Wire Wire Line
-	3700 4300 4150 4300
+	4150 4300 3700 4300
 Wire Wire Line
-	3700 2500 4150 2500
+	4150 2500 3700 2500
 Wire Wire Line
-	3000 2700 2400 2700
+	2400 2700 3000 2700
 Wire Wire Line
-	2400 3600 3000 3600
+	3000 3600 2400 3600
 Wire Wire Line
-	3000 4500 2400 4500
+	2400 4500 3000 4500
 Connection ~ 4000 700 
 Connection ~ 2950 5900
 Wire Wire Line
@@ -161,30 +165,22 @@ Connection ~ 3700 700
 Connection ~ 3700 1600
 Connection ~ 2400 5200
 Wire Wire Line
-	2400 5400 3000 5400
+	3000 5400 2400 5400
 Connection ~ 2400 4300
 Connection ~ 2400 3400
 Wire Wire Line
-	3700 3400 4150 3400
+	4150 3400 3700 3400
 Connection ~ 3700 3400
 Connection ~ 3700 2500
 Wire Wire Line
-	3700 700  4150 700 
+	4150 700  3700 700 
 Connection ~ 2400 700 
 Connection ~ 2400 1600
 Connection ~ 2400 2500
 Wire Wire Line
-	3700 5200 4150 5200
+	4150 5200 3700 5200
 Wire Wire Line
-	3700 1600 4150 1600
-Wire Wire Line
-	4000 1350 5100 1350
-Wire Wire Line
-	4000 2900 4000 3150
-Wire Wire Line
-	4000 3150 5100 3150
-Wire Wire Line
-	4000 4700 4000 4950
+	4150 1600 3700 1600
 Wire Wire Line
 	4000 4950 5100 4950
 Wire Wire Line
@@ -192,9 +188,35 @@ Wire Wire Line
 Wire Wire Line
 	4000 6750 5100 6750
 Wire Wire Line
-	5100 1350 5100 2250
-Wire Wire Line
 	5100 4950 5100 5850
+Wire Wire Line
+	5450 1300 5450 1150
+Wire Wire Line
+	5450 1150 4000 1150
+Wire Wire Line
+	5450 2950 4000 2950
+Wire Wire Line
+	5450 2950 5450 3100
+Wire Wire Line
+	4000 2950 4000 2900
+$Comp
+L JUMPER JP4
+U 1 1 52377227
+P 5450 3400
+F 0 "JP4" H 5450 3550 60  0000 C CNN
+F 1 "JUMPER" H 5450 3320 40  0000 C CNN
+	1    5450 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L JUMPER JP3
+U 1 1 52377186
+P 5450 1600
+F 0 "JP3" H 5450 1750 60  0000 C CNN
+F 1 "JUMPER" H 5450 1520 40  0000 C CNN
+	1    5450 1600
+	0    1    1    0   
+$EndComp
 Text HLabel 4000 7400 2    40   Input ~ 0
 Injector8-Ground
 Text HLabel 4000 6500 2    40   Input ~ 0

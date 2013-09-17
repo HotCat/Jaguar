@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 16 Sep 2013 06:18:12 PM EDT
+EESchema Schematic File Version 2  date Mon 16 Sep 2013 07:56:40 PM EDT
 LIBS:opto
 LIBS:power
 LIBS:conn
@@ -20,6 +20,28 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
+	5650 7450 5650 6950
+Wire Wire Line
+	5650 6950 5050 6950
+Wire Wire Line
+	5050 6950 5050 6550
+Wire Wire Line
+	5650 5650 5650 5150
+Wire Wire Line
+	5650 5150 5050 5150
+Wire Wire Line
+	5050 5150 5050 4750
+Wire Wire Line
+	5050 4250 5650 4250
+Wire Wire Line
+	5050 4250 5050 3850
+Wire Wire Line
+	5650 2950 5650 2400
+Wire Wire Line
+	5650 2400 5050 2400
+Wire Wire Line
+	5050 2400 5050 2050
+Wire Wire Line
 	5050 3850 4000 3850
 Connection ~ 5650 3850
 Connection ~ 5050 3850
@@ -30,12 +52,12 @@ Connection ~ 5650 5650
 Connection ~ 5650 6550
 Connection ~ 5050 6550
 Wire Wire Line
-	5050 5650 4000 5650
+	4000 5650 5050 5650
 Connection ~ 5650 2950
 Connection ~ 5050 2950
 Connection ~ 5050 2050
 Wire Wire Line
-	5050 2950 4000 2950
+	4000 2950 5050 2950
 Connection ~ 5650 7450
 Connection ~ 5050 7450
 Wire Wire Line
@@ -195,7 +217,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 7450 4000 7400
 Wire Wire Line
-	5650 1150 5650 7450
+	5650 1150 5650 2050
 Connection ~ 5650 2050
 Wire Wire Line
 	4000 2050 5050 2050
@@ -203,6 +225,20 @@ Wire Wire Line
 	4000 6550 5050 6550
 Wire Wire Line
 	4000 4750 5050 4750
+Wire Wire Line
+	5050 2950 5050 3350
+Wire Wire Line
+	5050 3350 5650 3350
+Wire Wire Line
+	5650 3350 5650 3850
+Wire Wire Line
+	5650 4250 5650 4750
+Wire Wire Line
+	5050 5650 5050 6050
+Wire Wire Line
+	5050 6050 5650 6050
+Wire Wire Line
+	5650 6050 5650 6550
 $Comp
 L JUMPER JP9
 U 1 1 5237813C

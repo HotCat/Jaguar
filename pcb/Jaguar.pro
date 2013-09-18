@@ -1,5 +1,5 @@
-update=Mon 16 Sep 2013 06:22:43 PM EDT
-last_client=pcbnew
+update=Tue 17 Sep 2013 08:45:18 PM EDT
+last_client=cvpcb
 [general]
 version=1
 [eeschema]
@@ -44,11 +44,6 @@ LibName3=conn
 LibName4=transistors
 LibName5=device
 LibName6=Jaguar
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [pcbnew]
 version=1
 PadDrlX=0
@@ -72,7 +67,6 @@ TxtLar=40
 MSegLar=10
 WpenSer=10
 [pcbnew/libraries]
-LibDir=
 LibName1=Jaguar
 LibName2=w_smd_dil
 LibName3=smd_capacitors
@@ -80,4 +74,9 @@ LibName4=mpxh6400
 LibName5=mp3h6115a
 LibName6=transistor
 LibName7=w_smd_trans
-LibName8=smd_resistors
+LibDir=
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
